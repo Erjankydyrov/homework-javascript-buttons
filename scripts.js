@@ -10,7 +10,7 @@ h1.innerText = "0";
 document.body.append(h1);
 
 let ul = document.createElement('ul');
-for (let i = 0; i <= 5; i++) {
+for (let i = 1; i <= 5; i++) {
     let li = document.createElement("li");
     let button = document.createElement("button");
     button.innerText = "Example";
@@ -21,3 +21,8 @@ for (let i = 0; i <= 5; i++) {
 }
 
 document.body.append(ul);
+
+// css
+
+let example4 = document.querySelector("#example4");
+example4.innerText = "+";
