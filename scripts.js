@@ -34,5 +34,7 @@ example4.addEventListener('click', function () {
 // ++
 
 // --
+let example5 = document.querySelector("#example5");
+example5.innerText = "-";
 
 // --
