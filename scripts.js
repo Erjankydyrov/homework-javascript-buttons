@@ -25,6 +25,7 @@ document.body.append(ul);
 
 // css
 
+// ++
 let example4 = document.querySelector("#example4");
 example4.innerText = "+";
 
@@ -32,3 +33,4 @@ example4.addEventListener('click', function () {
     conteiner ++;
     h1.innerText = conteiner;
 });
+// ++
