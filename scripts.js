@@ -8,6 +8,7 @@ function printLine(text) {
 let h1 = document.createElement('h1');
 h1.innerText = "0";
 document.body.append(h1);
+let conteiner = 0;
 
 let ul = document.createElement('ul');
 for (let i = 1; i <= 5; i++) {
@@ -26,3 +27,8 @@ document.body.append(ul);
 
 let example4 = document.querySelector("#example4");
 example4.innerText = "+";
+
+example4.addEventListener('click', function () {
+    conteiner ++;
+    h1.innerText = conteiner;
+});
