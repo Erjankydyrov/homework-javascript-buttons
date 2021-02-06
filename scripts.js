@@ -58,5 +58,8 @@ example2.addEventListener('click', function () {
 let example3 = document.querySelector("#example3");
 example3.innerText = "Size -";
 
-
+example3.addEventListener('click', function () {
+    size--;
+    h1.style.fontSize = size + "px";
+});
 // size --
