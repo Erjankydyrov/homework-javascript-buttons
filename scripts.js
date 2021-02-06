@@ -56,5 +56,7 @@ example2.addEventListener('click', function () {
 
 // size --
 let example3 = document.querySelector("#example3");
+example3.innerText = "Size -";
+
 
 // size --
