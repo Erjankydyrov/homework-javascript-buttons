@@ -52,5 +52,8 @@ example2.addEventListener('click', function () {
     size++;
     h1.style.fontSize = size + "px";
 });
-
 // size ++
+
+// size --
+
+// size --
