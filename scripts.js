@@ -7,7 +7,7 @@ function printLine(text) {
 
 let h1 = document.createElement('h1');
 h1.innerText = "0";
-let size = 16;
+let size = 32;
 document.body.append(h1);
 let conteiner = 0;
 
@@ -48,5 +48,8 @@ example5.addEventListener('click', function () {
 let example2 = document.querySelector("#example2");
 example2.innerText = "Size +";
 
-
+example2.addEventListener('click', function () {
+    size++;
+    h1.style.fontSize = size + "px";
+});
 // size ++
