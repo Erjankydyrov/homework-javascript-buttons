@@ -46,5 +46,7 @@ example5.addEventListener('click', function () {
 
 // size ++
 let example2 = document.querySelector("#example2");
+example2.innerText = "Size +";
+
 
 // size ++
