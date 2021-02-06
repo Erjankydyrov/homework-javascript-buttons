@@ -7,6 +7,7 @@ function printLine(text) {
 
 let h1 = document.createElement('h1');
 h1.innerText = "0";
+let size = 16;
 document.body.append(h1);
 let conteiner = 0;
 
