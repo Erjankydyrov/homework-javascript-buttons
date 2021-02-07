@@ -75,3 +75,9 @@ example1.addEventListener('click', function() {
     h1.style.color = `rgb(${getRandomInt(255)}, ${getRandomInt(255)}, ${getRandomInt(255)})`
 });
 // random colors
+
+let body;
+
+// styles
+
+// styles
