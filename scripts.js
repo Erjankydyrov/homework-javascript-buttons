@@ -86,5 +86,5 @@ h1.style.marginBottom = "15px";
 ul.style.maxWidth = '150px';
 ul.style.margin = " 0 auto";
 ul.style.listStyleType = "none";
-
+ul.style.padding = "0";
 // styles
