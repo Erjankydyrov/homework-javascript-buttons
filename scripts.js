@@ -82,5 +82,6 @@ let body;
 h1.style.maxWidth = '100px';
 h1.style.textAlign = 'center';
 h1.style.margin = '0 auto';
+h1.style.marginBottom = "15px";
 
 // styles
