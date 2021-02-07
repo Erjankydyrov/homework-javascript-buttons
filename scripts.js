@@ -10,6 +10,9 @@ h1.innerText = "0";
 let size = 32;
 document.body.append(h1);
 let conteiner = 0;
+function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+}
 
 let ul = document.createElement('ul');
 for (let i = 1; i <= 5; i++) {
