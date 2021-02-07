@@ -79,5 +79,6 @@ example1.addEventListener('click', function() {
 let body;
 
 // styles
+h1.style.maxWidth = '100px';
 
 // styles
