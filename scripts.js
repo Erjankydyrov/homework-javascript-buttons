@@ -63,3 +63,4 @@ example3.addEventListener('click', function () {
     h1.style.fontSize = size + "px";
 });
 // size --
+
