@@ -64,3 +64,6 @@ example3.addEventListener('click', function () {
 });
 // size --
 
+// random colors
+
+// random colors
