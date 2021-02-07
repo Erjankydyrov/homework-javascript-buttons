@@ -67,4 +67,6 @@ example3.addEventListener('click', function () {
 // random colors
 let example1 = document.querySelector("#example1");
 example1.innerText = "Random-colors";
+
+
 // random colors
