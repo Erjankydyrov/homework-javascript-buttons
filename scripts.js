@@ -20,6 +20,7 @@ for (let i = 1; i <= 5; i++) {
     let button = document.createElement("button");
     button.innerText = "Example";
     button.id = "example" + i;
+    li.className = "ulli";
 
     li.append(button);
     ul.append(li);
@@ -72,11 +73,9 @@ let example1 = document.querySelector("#example1");
 example1.innerText = "Random-colors";
 
 example1.addEventListener('click', function() {
-    h1.style.color = `rgb(${getRandomInt(255)}, ${getRandomInt(255)}, ${getRandomInt(255)})`
+    h1.style.color = `rgb(${getRandomInt(255)}, ${getRandomInt(255)}, ${getRandomInt(255)})`;
 });
 // random colors
-
-let body;
 
 // styles
 h1.style.maxWidth = '100px';
